@@ -504,6 +504,7 @@ function init() {
             search();
             break;
         case '/favorites.html':
+        case '/favorites':
             displayFavorites();
             break;
     }
