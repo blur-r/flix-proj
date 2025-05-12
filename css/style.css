@@ -391,7 +391,7 @@ section h2 {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .nav-list li a {
     font-size: 11px !important;
     font-weight: bold;
