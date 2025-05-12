@@ -87,7 +87,10 @@ ul {
 
 .main-header {
   padding: 20px 0;
-  background: rgba(0, 0, 0, 0.8);
+  background: black;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
 
 .main-header .logo {
@@ -385,5 +388,17 @@ section h2 {
     margin: 0;
     width: 100%;
     max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .nav-list li a {
+    font-size: 11px !important;
+    font-weight: bold;
+  }
+
+  .search-radio label {
+    font-size: 10px;
+    font-weight: bold;
   }
 }
