@@ -1,1 +1,1 @@
-this is my first project using api. it helped me understand how api works and some other core javascript functionality 
+this is my first project using an api. it helped me understand how api works and some other core javascript functionality. it feteches movies from and api and displays them. movies and tv shows can be searched for and add to favorites 
